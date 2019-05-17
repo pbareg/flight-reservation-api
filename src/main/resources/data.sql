@@ -1,0 +1,34 @@
+insert into users(username, password, role, mobile_no) values ('praveen', 'password', 'admin', 7896541235);
+insert into users(username, password, role, mobile_no) values ('anvesh', 'password', 'user', 7896541235);
+insert into users(username, password, role, mobile_no) values ('rajesh', 'password', 'user', 7896541235);
+
+insert into airport (abbreviation, airport_name, location) values('HYD','Rajeev Gandhi Airport','Hyderabad')
+insert into airport (abbreviation, airport_name, location) values('VIZAG','Vishakapatnam Airport','Vishakapatnam')
+insert into airport (abbreviation, airport_name, location) values('BZA','Vijayawada Airport','Vijayawada')
+insert into airport (abbreviation, airport_name, location) values('BAN','Banglore Airport','Banglore')
+insert into airport (abbreviation, airport_name, location) values('MUN','Mumbai Airport','Mumbai')
+insert into airport (abbreviation, airport_name, location) values('DEL','Delhi Airport','Delhi')
+insert into airport (abbreviation, airport_name, location) values('CHE','Chennai Airport','Chennai')
+
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (123 ,'Indigo','Hyderabad' , '14/05/2019','9:30','Business','1253','Mumbai','14/05/2019','10:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (456 ,'Indigo','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (789 ,'SpiceJet','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (8547 ,'IndianAirlines','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (4561 ,'Indigo','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (4356 ,'SpiceJet','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (3456 ,'IndianAirlines','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (5456 ,'SpiceJet','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (41356 ,'IndianAirlines','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+insert into flight_information (flight_no ,airline,arive_city , arive_date,arive_time,business_seat,business_seat_fare,dep_city,dep_date,dep_time,first_seats,first_seats_fare) values (1456 ,'Indigo','Mumbai' , '14/05/2019','19:30','Business','1253','Hyderabad','15/05/2019','00:30','Economy','800');
+
+
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('113211'  , 'business' , '4125879632544125' , 'test@airlines.com' , 'MUM' , 1, 'HYD-001' , 'HYD' , 1542.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('1111'  , 'business' , '4125879632544125' , 'test@airlines.com' , 'MUM' , 1, 'HYD-001' , 'HYD' , 1542.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('2222'  , 'economic' , '4125879632544125' , 'test@airlines.com' , 'HYD' , 1, 'BAN-001' , 'BAN' , 1122.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('3333'  , 'business' , '4125879632544125' , 'test@airlines.com' , 'BZA' , 1, 'CHE-001' , 'CHE' , 1212.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('4444'  , 'economic' , '4125879632544125' , 'test@airlines.com' , 'DEL' , 1, 'CHE-002' , 'CHE' , 1522.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('5555'  , 'economic' , '4125879632544125' , 'test@airlines.com' , 'CHE' , 1, 'DEL-001' , 'DEL' , 1525.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('6666'  , 'economic' , '4125879632544125' , 'test@airlines.com' , 'BAN' , 1, 'HYD-002' , 'HYD' , 1634.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('7777'  , 'business' , '4125879632544125' , 'test@airlines.com' , 'DEL' , 1, 'HYD-003' , 'HYD' , 2000.12);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('1010'  , 'economic' , '4125879632544125' , 'test@airlines.com' , 'CHE' , 1, 'HYD-004' , 'HYD' , 1000.00);
+insert into booking_information (booking_id  , class_type , creditcard_info , customer_email , dest_city , no_of_passengers, seat_number , src_city , total_fare) values ('1112'  , 'business' , '4125879632544125' , 'test@airlines.com' , 'HYD' , 1, 'CHE-001' , 'CHE' , 999.09);

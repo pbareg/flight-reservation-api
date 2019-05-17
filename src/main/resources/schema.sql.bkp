@@ -1,0 +1,4 @@
+create table airport (abbreviation varchar(255) not null, airport_name varchar(255), location varchar(255), primary key (abbreviation));
+create table booking_information (booking_id varchar(255) not null, class_type varchar(255), creditcard_info varchar(255), customer_email varchar(255), dest_city varchar(255), no_of_passengers integer, seat_number varchar(255), src_city varchar(255), total_fare float, primary key (booking_id));
+create table flight_information (flight_no varchar(255) not null, airline varchar(255), arive_city varchar(255), arive_date varchar(255), arive_time varchar(255), business_seat varchar(255), business_seat_fare varchar(255), dep_city varchar(255), dep_data varchar(255), dep_time varchar(255), first_seats varchar(255), first_seats_fare varchar(255), primary key (flight_no));
+create table users (username varchar(255) not null, mobile_no bigint, password varchar(255), role varchar(255), primary key (username));
